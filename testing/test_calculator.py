@@ -40,7 +40,7 @@ class Testcalcu:
     # @pytest.mark.login
     # todo: 完善相加功能
     # done: 相除功能
-    # 相除
+    # 相除 提交
     @pytest.mark.parametrize("a,b,result", datas[2], ids=datas[1])
     def test_div(self, a, b, result):
         assert result == self.calcu.div(a, b)
